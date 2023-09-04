@@ -20,10 +20,10 @@ var max = getMax(price);
 const map = new maplibregl.Map({
   container: 'map',
   zoom: 4,
-  center: [138, 37],
+  center: [138, 38],
   minZoom: 1,
   maxZoom: 6,
-  maxBounds: [122, 20, 154, 50],
+  maxBounds: [122, 20, 154, 55],
   style: {
     version: 8,
     glyphs: "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf",
